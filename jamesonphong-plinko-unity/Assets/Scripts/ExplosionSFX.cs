@@ -1,12 +1,11 @@
 using UnityEngine;
 
-public class PlayerShootSFX : MonoBehaviour
+public class ExplosionSFX : MonoBehaviour
 {
     // Call upon a source of Audio
     public AudioSource audioSource;
-    public void PlayShootFX()
+    public void ExplosionSoundFX()
     {
-        // Play the audio source
         audioSource.Play();
     }
 }

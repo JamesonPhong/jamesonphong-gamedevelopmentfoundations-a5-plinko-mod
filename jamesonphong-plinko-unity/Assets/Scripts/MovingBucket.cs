@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class MovingBucket : MonoBehaviour
 {
+    // Define the game object to be moved
     public GameObject movingBucket;
     void Update()
     {
