@@ -1,14 +1,14 @@
 using UnityEngine;
 
-public class ScoreTrigger : MonoBehaviour
+public class DeductHealth : MonoBehaviour
 {
-    public ScoreKeeper scoreKeeper;
+    public HealthTracker healthTracker;
     public ExplosionSFX explosionSFX;
-    public int points = 1;
+    public int health = 1;
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        scoreKeeper.AddScore(points);
+        healthTracker.deductHealth(health);
         Destroy(collider.gameObject);
         explosionSFX.ExplosionSoundFX();
     }

@@ -433,11 +433,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 83648067}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6a1ae6f6ae13e7468b63c841252a576, type: 3}
+  m_Script: {fileID: 11500000, guid: 84cb858c06ae4934ea4661b4bc8a3df2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScoreKeeper
-  scoreDisplay: {fileID: 1087149799}
-  score: 0
+  healthDisplay: {fileID: 1087149799}
+  health: 9000
 --- !u!114 &83648070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -447,12 +447,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 83648067}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e47fc22b1de1a564e96416015822f3e0, type: 3}
+  m_Script: {fileID: 11500000, guid: 2632b450763116f43911c176f1c69aeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScoreTrigger
-  scoreKeeper: {fileID: 1087149798}
+  healthTracker: {fileID: 1087149798}
   explosionSFX: {fileID: 215733957}
-  points: 2000
+  health: 1600
 --- !u!61 &83648071
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -855,11 +855,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 196084168}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6a1ae6f6ae13e7468b63c841252a576, type: 3}
+  m_Script: {fileID: 11500000, guid: 84cb858c06ae4934ea4661b4bc8a3df2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScoreKeeper
-  scoreDisplay: {fileID: 1087149799}
-  score: 0
+  healthDisplay: {fileID: 1087149799}
+  health: 9000
 --- !u!114 &196084171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -869,12 +869,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 196084168}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e47fc22b1de1a564e96416015822f3e0, type: 3}
+  m_Script: {fileID: 11500000, guid: 2632b450763116f43911c176f1c69aeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScoreTrigger
-  scoreKeeper: {fileID: 1087149798}
+  healthTracker: {fileID: 1087149798}
   explosionSFX: {fileID: 215733957}
-  points: 500
+  health: 400
 --- !u!61 &196084172
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1524,11 +1524,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 220661609}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6a1ae6f6ae13e7468b63c841252a576, type: 3}
+  m_Script: {fileID: 11500000, guid: 84cb858c06ae4934ea4661b4bc8a3df2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScoreKeeper
-  scoreDisplay: {fileID: 1087149799}
-  score: 0
+  healthDisplay: {fileID: 1087149799}
+  health: 9000
 --- !u!114 &220661614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1538,12 +1538,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 220661609}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e47fc22b1de1a564e96416015822f3e0, type: 3}
+  m_Script: {fileID: 11500000, guid: 2632b450763116f43911c176f1c69aeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScoreTrigger
-  scoreKeeper: {fileID: 1087149798}
+  healthTracker: {fileID: 1087149798}
   explosionSFX: {fileID: 215733957}
-  points: 1000
+  health: 800
 --- !u!1 &229917648
 GameObject:
   m_ObjectHideFlags: 0
@@ -1960,11 +1960,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 315358159}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6a1ae6f6ae13e7468b63c841252a576, type: 3}
+  m_Script: {fileID: 11500000, guid: 84cb858c06ae4934ea4661b4bc8a3df2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScoreKeeper
-  scoreDisplay: {fileID: 1087149799}
-  score: 0
+  healthDisplay: {fileID: 1087149799}
+  health: 9000
 --- !u!114 &315358162
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1974,12 +1974,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 315358159}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e47fc22b1de1a564e96416015822f3e0, type: 3}
+  m_Script: {fileID: 11500000, guid: 2632b450763116f43911c176f1c69aeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScoreTrigger
-  scoreKeeper: {fileID: 1087149798}
+  healthTracker: {fileID: 1087149798}
   explosionSFX: {fileID: 215733957}
-  points: 300
+  health: 200
 --- !u!61 &315358163
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7301,7 +7301,7 @@ GameObject:
   - component: {fileID: 1087149799}
   - component: {fileID: 1087149798}
   m_Layer: 5
-  m_Name: Scorekeeper Text
+  m_Name: Health Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7335,11 +7335,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1087149796}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6a1ae6f6ae13e7468b63c841252a576, type: 3}
+  m_Script: {fileID: 11500000, guid: 84cb858c06ae4934ea4661b4bc8a3df2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScoreKeeper
-  scoreDisplay: {fileID: 1087149799}
-  score: 0
+  healthDisplay: {fileID: 1087149799}
+  health: 9000
 --- !u!114 &1087149799
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7360,7 +7360,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'SCORE: '
+  m_text: 'HEALTH: '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7864,11 +7864,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1178885164}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6a1ae6f6ae13e7468b63c841252a576, type: 3}
+  m_Script: {fileID: 11500000, guid: 84cb858c06ae4934ea4661b4bc8a3df2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScoreKeeper
-  scoreDisplay: {fileID: 1087149799}
-  score: 0
+  healthDisplay: {fileID: 1087149799}
+  health: 9000
 --- !u!114 &1178885167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7878,12 +7878,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1178885164}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e47fc22b1de1a564e96416015822f3e0, type: 3}
+  m_Script: {fileID: 11500000, guid: 2632b450763116f43911c176f1c69aeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScoreTrigger
-  scoreKeeper: {fileID: 1087149798}
+  healthTracker: {fileID: 1087149798}
   explosionSFX: {fileID: 215733957}
-  points: 300
+  health: 200
 --- !u!61 &1178885168
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8646,11 +8646,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1255411974}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6a1ae6f6ae13e7468b63c841252a576, type: 3}
+  m_Script: {fileID: 11500000, guid: 84cb858c06ae4934ea4661b4bc8a3df2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScoreKeeper
-  scoreDisplay: {fileID: 1087149799}
-  score: 0
+  healthDisplay: {fileID: 1087149799}
+  health: 9000
 --- !u!114 &1255411979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8660,12 +8660,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1255411974}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e47fc22b1de1a564e96416015822f3e0, type: 3}
+  m_Script: {fileID: 11500000, guid: 2632b450763116f43911c176f1c69aeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScoreTrigger
-  scoreKeeper: {fileID: 1087149798}
+  healthTracker: {fileID: 1087149798}
   explosionSFX: {fileID: 215733957}
-  points: 100
+  health: 100
 --- !u!1 &1280303929
 GameObject:
   m_ObjectHideFlags: 0
@@ -8978,11 +8978,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1320382023}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6a1ae6f6ae13e7468b63c841252a576, type: 3}
+  m_Script: {fileID: 11500000, guid: 84cb858c06ae4934ea4661b4bc8a3df2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScoreKeeper
-  scoreDisplay: {fileID: 1087149799}
-  score: 0
+  healthDisplay: {fileID: 1087149799}
+  health: 9000
 --- !u!114 &1320382026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8992,12 +8992,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1320382023}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e47fc22b1de1a564e96416015822f3e0, type: 3}
+  m_Script: {fileID: 11500000, guid: 2632b450763116f43911c176f1c69aeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScoreTrigger
-  scoreKeeper: {fileID: 1087149798}
+  healthTracker: {fileID: 1087149798}
   explosionSFX: {fileID: 215733957}
-  points: 500
+  health: 400
 --- !u!61 &1320382027
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14463,11 +14463,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2118216038}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6a1ae6f6ae13e7468b63c841252a576, type: 3}
+  m_Script: {fileID: 11500000, guid: 84cb858c06ae4934ea4661b4bc8a3df2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScoreKeeper
-  scoreDisplay: {fileID: 1087149799}
-  score: 0
+  healthDisplay: {fileID: 1087149799}
+  health: 9000
 --- !u!114 &2118216043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14477,12 +14477,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2118216038}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e47fc22b1de1a564e96416015822f3e0, type: 3}
+  m_Script: {fileID: 11500000, guid: 2632b450763116f43911c176f1c69aeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScoreTrigger
-  scoreKeeper: {fileID: 1087149798}
+  healthTracker: {fileID: 1087149798}
   explosionSFX: {fileID: 215733957}
-  points: 100
+  health: 100
 --- !u!1 &2138889891
 GameObject:
   m_ObjectHideFlags: 0
